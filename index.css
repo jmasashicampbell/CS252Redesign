@@ -1,0 +1,93 @@
+.symbol-banner {
+    height: 15rem;
+    background-image: url("/images/symbols.jpg");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 0.7rem;
+    box-shadow: var(--dark-shadow);
+}
+
+.instructors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.instructor-box {
+    display: flex;
+    margin: 0.5rem 0;
+    padding: 1.25rem 0.625rem;
+    width: 100%;
+    color: white;
+    background-color: var(--royal-blue);
+    border-radius: 0.7rem;
+    box-shadow: var(--light-shadow);
+}
+
+.instructor-box a {
+    color: white;
+    text-decoration: underline;
+}
+
+.instructor-box img {
+    border-radius: 0.7rem;
+}
+
+.instructor-inner {
+    margin: 0 10px;
+}
+
+#barker-pic {
+    width: 9rem;
+}
+
+.ta-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 8.2rem;
+}
+
+.ta-pictures img {
+    width: 3.9rem;
+    margin: 0.1rem;
+}
+
+
+@media only screen and (min-device-width: 641px) and (min-width: 641px){
+    .symbol-banner {
+        height: 22rem;
+    }
+
+    .instructor-box {
+        margin: 0;
+        width: auto;
+    }
+
+    #instructor-1 {
+        margin-right: 10px;
+    }
+
+    #instructor-2 {
+        margin-left: 10px;
+    }
+
+    .ta-pictures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 20rem;
+    }
+
+    .ta-pictures img {
+        width: 6.25rem;
+    }
+}

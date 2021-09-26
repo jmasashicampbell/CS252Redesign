@@ -15,6 +15,17 @@
     box-shadow: var(--dark-shadow);
 }
 
+.outcomes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.outcomes .blue-box {
+    width: 47%;
+    margin: 0.3rem;
+}
+
 .instructors {
     display: flex;
     flex-wrap: wrap;
@@ -26,6 +37,7 @@
     margin: 0.5rem 0;
     padding: 1.25rem 0.625rem;
     width: 100%;
+    background-color: var(--dark-blue);
 }
 
 .instructor-box a {
@@ -61,6 +73,15 @@
 @media only screen and (min-device-width: 641px) and (min-width: 641px){
     .symbol-banner {
         height: 22rem;
+    }
+
+    .outcomes {
+        justify-content: space-between;
+    }
+
+    .outcomes .blue-box {
+        width: 19%;
+        margin: 0px;
     }
 
     .instructor-box {

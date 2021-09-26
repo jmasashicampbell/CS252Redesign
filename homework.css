@@ -1,0 +1,20 @@
+.homework-box {
+    padding: 1em;
+}
+
+.homework-box table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.homework-box th, td {
+    padding: 0.5rem;
+}
+
+
+@media only screen and (min-device-width: 641px) and (min-width: 641px) {
+    .homework-box table {
+        font-size: 1rem;
+    }
+}

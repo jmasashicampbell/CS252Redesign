@@ -3,6 +3,7 @@
     --dark-blue: #002d5f;
     --royal-blue: #0062b8;
     --dark-gray: #505050;
+    --light-gray: #c0c0c0;
 
     --dark-shadow:
         0 45px 80px -20px rgba(50, 50, 93, 1),
@@ -16,12 +17,29 @@ html {
     font-size: 40px;
 }
 
+body {
+    min-height: 100%;
+}
+
 .bg-dark, .nav-color {
     background-color: var(--navy-blue) !important;
 }
 
 .navbar-brand {
     font-size: 1rem;
+}
+
+footer {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navy-blue);
+}
+
+
+footer a img{
+    height: 2rem;
 }
 
 .cap-width {
@@ -33,6 +51,22 @@ html {
     width: min(100%, 1200px);
     margin: auto;
     padding: 1rem;
+}
+
+.blue-box {
+    padding: 1rem;
+    color: white;
+    background-color: var(--royal-blue);
+    border-radius: 0.7rem;
+    box-shadow: var(--light-shadow);
+}
+
+.blue-box h3 {
+    color: white;
+}
+
+.blue-box th, td {
+    border: 1px solid var(--light-gray);
 }
 
 h1 {

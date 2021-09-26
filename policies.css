@@ -1,0 +1,8 @@
+.policy-box {
+    margin: 0.7rem 0;
+}
+
+.policy-box tr, td {
+    padding: 0.5rem;
+    background-color: var(--dark-blue);
+}

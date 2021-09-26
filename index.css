@@ -26,10 +26,6 @@
     margin: 0.5rem 0;
     padding: 1.25rem 0.625rem;
     width: 100%;
-    color: white;
-    background-color: var(--royal-blue);
-    border-radius: 0.7rem;
-    box-shadow: var(--light-shadow);
 }
 
 .instructor-box a {
@@ -68,7 +64,7 @@
     }
 
     .instructor-box {
-        margin: 0;
+        margin: 0 0 1rem;
         width: auto;
     }
 
@@ -76,18 +72,22 @@
         margin-right: 10px;
     }
 
-    #instructor-2 {
+    instructor-2 {
         margin-left: 10px;
+    }
+
+    #barker-pic {
+        width: 15rem;
     }
 
     .ta-pictures {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 20rem;
+        width: 24rem;
     }
 
     .ta-pictures img {
-        width: 6.25rem;
+        width: 7.5rem;
     }
 }

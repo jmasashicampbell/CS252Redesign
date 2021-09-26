@@ -1,0 +1,17 @@
+.schedule-box {
+    padding: 1rem;
+}
+
+.schedule-box table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.schedule-box th, td {
+    padding: 0.625rem;
+}
+
+.unavailable {
+    background-color: var(--dark-blue);
+    font-weight: bold;
+}
